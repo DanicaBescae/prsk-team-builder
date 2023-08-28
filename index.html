@@ -1,12 +1,39 @@
 <!DOCTYPE html>
-<html>
-<head>
-<title>Page Title</title>
-</head>
-<body>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Project Sekai Team Builder</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
+    />
+    <link rel="stylesheet" href="/style.css" />
+  </head>
 
-<h1>My First Heading</h1>
-<p>My first paragraph.</p>
-
-</body>
+  <body>
+    <div class="column main-page">
+      <section id="card-section">
+        <div class="card has-text-centered">
+          <div class="card name-tag">
+            <p id="pokeName">
+              POKEMON NAME
+            </p>
+            <p id="pokeType">
+              POKEMON TYPE
+            </p>
+          </div>
+          <div class="card-image">
+            <figure class="card-image is-128x128">
+              <img
+                id="pokePicture"
+                src="https://bulma.io/images/placeholders/256x256.png"
+              />
+            </figure>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script src="/script.js" defer></script>
+  </body>
 </html>
